@@ -1,0 +1,42 @@
+.options_container {
+  margin: 10px 0;
+}
+.options_image {
+  width: 20px;
+  height: 20px;
+}
+.options_button {
+  width: 100%;
+  border: none;
+  border-style: none;
+  background-color: white;
+}
+.options_element_container,
+.options_element_container_selected {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 8px;
+  color: #383838;
+  font-weight: 500;
+  justify-content: space-between;
+}
+.options_element_container:hover {
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+}
+.options_element_container_selected {
+  background-color: #4285f4;
+  color: white;
+}
+.options_name {
+  margin-left: 20px;
+}
+.options_element_img_name_container {
+  display: flex;
+  align-items: center;
+}
+.options_tick {
+  color: white;
+}
